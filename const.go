@@ -10,6 +10,9 @@ func main() {
 	const (
 		age = 20
 		isMarried = false
+
+		// tidak digunakan
+		halo string = "Halo"
 	)
 
 	var (

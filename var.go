@@ -9,8 +9,18 @@ func main() {
 	// ? Short declaration
 	hello := "Hello World"
 	fmt.Println(hello)
-	
+
 	fmt.Println("My name is", name)
 	name = "Budi"
 	fmt.Println("My name is", name)
+
+	// ! var underscore
+	halogais, _ := "Halo", "Gais"
+	fmt.Println(halogais)
+
+	
+
+	anjay, _ := "Hello", "Go!"
+
+_, _ = fmt.Scanf("%s", &anjay)
 }
