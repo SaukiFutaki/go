@@ -3,8 +3,9 @@ package main
 import "fmt"
 
 func main() {
-	var numb1,numb2 int
+	var numb1,numb2,score1,score2 int
 	var fruit string
+
 
 
 	fmt.Print("Masukan angka ke 1: ")
@@ -30,5 +31,20 @@ func main() {
 	}
 
 
+	fmt.Print("Masukan nilai 1: ")
+	fmt.Scan(&score1)
+
+	fmt.Print("Masukan nilai 2:")
+	fmt.Scan(&score2)
+
+	if  score1 >= 80 && score2 >= 80  {
+		fmt.Println("Lulus")
+	} else if score1 >= 80 || score2 >= 80 {
+		fmt.Println("Remidi")
+	} else {
+		fmt.Println("Tidak Lulus")
+	}
+
+	
 
 }
