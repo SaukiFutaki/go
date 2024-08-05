@@ -13,18 +13,21 @@ func main() {
 
 		// tidak digunakan
 		halo string = "Halo"
+		anjay string = "Anjay"
 	)
 
-	var (
-		keren = true
-		anjay string
-	)
+	fmt.Println(anjay)
 
-	anjay = "anjay"
-	fmt.Println("Anjay", anjay)
+	// var (
+	// 	keren = true
+	// 	anjay string
+	// )
+
+	// anjay = "anjay"
+	// fmt.Println("Anjay", anjay)
 
 
 	fmt.Println("My age is", age)
 	fmt.Println("Is married?", isMarried)
-	fmt.Println("Keren?", keren)
+	// fmt.Println("Keren?", keren)
 }
