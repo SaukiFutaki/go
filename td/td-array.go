@@ -3,9 +3,9 @@ package main
 import "fmt"
 
 func main() {
-	var names [3	]string
+	var names [3]string 
 
-	names = [3]string{"Sauki", "Rahmat", "Hidayat"}
+	names = [3]string{"Sauki", "Rahmat", "Budi"}
 	fmt.Println(names)
 
 
