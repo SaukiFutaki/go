@@ -11,7 +11,7 @@ func main() {
 		age = 20
 		isMarried = false
 
-		// tidak digunakan
+		// tidak digunaka n
 		halo string = "Halo"
 		anjay string = "Anjay"
 	)
