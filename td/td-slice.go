@@ -69,4 +69,18 @@ func main() {
 	// newSlice[2] = "Budi" // -> akan error karena panjang slice hanya 2
 	newSlice2 := append(newSlice, "Budi")
 	fmt.Println(len(newSlice2))
+
+
+	// TODO : COPY
+	fromSlice := days[:]
+	toSlice := make([]string, len(fromSlice), cap(fromSlice))
+	copy(toSlice, fromSlice)
+	fmt.Println(toSlice)
+	fmt.Println(fromSlice)
+
+
+	iniArray := [...]int{1, 2, 3, 4, 5}
+	iniSlice := []int{1, 2, 3, 4, 5}
+	fmt.Println(iniArray)
+	fmt.Println(iniSlice) 
 }
